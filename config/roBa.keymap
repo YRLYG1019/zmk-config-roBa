@@ -16,28 +16,73 @@
     combos {
         compatible = "zmk,combos";
 
+        ent {
+            bindings = <&kp ENTER>;
+            key-positions = <19 20>;
+        };
+
         tab {
             bindings = <&kp TAB>;
+            key-positions = <13 12>;
+        };
+
+        bs {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <18 19>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <8 9>;
+        };
+
+        ins {
+            bindings = <&kp INS>;
+            key-positions = <5 6>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <17 18>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <29 30>;
+        };
+
+        pg_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <30 31>;
+        };
+
+        pg_dw {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <31 32>;
+        };
+
+        spc {
+            bindings = <&kp SPACE>;
             key-positions = <11 12>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        shift_spc {
+            bindings = <&kp LS(SPACE)>;
+            key-positions = <1 2>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        cap {
+            bindings = <&kp CLCK>;
+            key-positions = <0 1>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <23 24>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
+        lang2 {
+            bindings = <&kp LANGUAGE_5>;
             key-positions = <24 25>;
         };
     };

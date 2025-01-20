@@ -132,10 +132,10 @@
 
         NUM {
             bindings = <
-&kp N1            &kp N2     &kp N3                &kp N4   &kp N5                                              &kp N6      &kp N7         &kp N8          &kp N9           &kp N0
-&kp LEFT_CONTROL  &kp SLASH  &kp ASTERISK          &kp DOT  &kp EQUAL  &kp LC(LA(LPAR))      &kp RPAR           &kp LEFT    &kp DOWN       &kp UP_ARROW    &kp RIGHT_ARROW  &kp RIGHT_CONTROL
-&kp LSHFT         &kp MINUS  &kp NON_US_BACKSLASH  &kp SQT  &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp DELETE  &kp BACKSPACE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RSHFT
-&trans            &trans     &trans                &trans   &trans     &trans                &trans             &trans                                                      &trans
+&kp N1            &kp N2     &kp N3                &kp N4   &kp N5                                                  &kp N6      &kp N7         &kp N8          &kp N9           &kp N0
+&kp LEFT_CONTROL  &kp SLASH  &kp ASTERISK          &kp DOT  &kp EQUAL  &kp LEFT_PARENTHESIS      &kp RPAR           &kp LEFT    &kp DOWN       &kp UP_ARROW    &kp RIGHT_ARROW  &kp RIGHT_CONTROL
+&kp LSHFT         &kp MINUS  &kp NON_US_BACKSLASH  &kp SQT  &kp GRAVE  &kp LEFT_BRACKET          &kp RIGHT_BRACKET  &kp DELETE  &kp BACKSPACE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RSHFT
+&trans            &trans     &trans                &trans   &trans     &trans                    &trans             &trans                                                      &trans
             >;
         };
 
@@ -152,10 +152,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans    &trans    &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &mkp MB4  &mkp MB5  &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
+&trans            &trans    &trans    &trans    &trans                      &trans  &trans    &trans    &trans    &trans
+&kp LEFT_CONTROL  &mkp MB3  &mkp MB2  &mkp MB1  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &kp RIGHT_CONTROL
+&kp LEFT_SHIFT    &mkp MB4  &mkp MB5  &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &kp RIGHT_SHIFT
+&trans            &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
             >;
         };
 

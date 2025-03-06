@@ -156,7 +156,7 @@
 &trans            &trans     &mkp RCLK  &mkp LCLK  &trans                      &trans  &trans     &trans     &trans     &trans
 &kp LEFT_CONTROL  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp RIGHT_CONTROL
 &kp LEFT_SHIFT    &mkp MB4   &mkp MB5   &trans     &trans  &trans      &trans  &trans  &trans     &trans     &trans     &kp RIGHT_SHIFT
-&trans            &trans     &trans     &trans     &trans  &trans      &trans  &trans                                   &trans
+&trans            &trans     &trans     &mo 4      &trans  &trans      &trans  &trans                                   &trans
             >;
         };
 
